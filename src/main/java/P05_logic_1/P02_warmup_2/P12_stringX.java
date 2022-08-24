@@ -1,4 +1,4 @@
-package P02_warmup_2;
+package P05_logic_1.P02_warmup_2;
 
 public class P12_stringX {
     public String stringX(String str) {
