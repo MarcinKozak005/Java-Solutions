@@ -1,4 +1,4 @@
-public class P57_CanYouAccess {
+public class P58_CanYouAccess {
     public static void main(String[] args) throws Exception {
         DoNotTerminate.forbidExit();
 

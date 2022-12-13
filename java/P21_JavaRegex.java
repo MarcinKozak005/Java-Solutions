@@ -1,5 +1,5 @@
 public class P21_JavaRegex {
-    class MyRegex{
+    class MyRegex {
         /*
         "(([0-9]{1,2})|([01][0-9]{2})|(2[0-4][0-9])|(25[0-5]))\\." repeated 4 times 
           ([0-9]{1,2}) - from 0 to 99 (including 00-09)

@@ -4,6 +4,6 @@ public class P15_JavaSubstring {
         String S = in.next();
         int start = in.nextInt();
         int end = in.nextInt();
-        System.out.println(S.substring(start,end));
+        System.out.println(S.substring(start, end));
     }
 }

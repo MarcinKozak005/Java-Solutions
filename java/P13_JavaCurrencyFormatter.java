@@ -10,7 +10,7 @@ public class P13_JavaCurrencyFormatter {
         String china = NumberFormat.getCurrencyInstance(Locale.CHINA).format(payment);
         String france = NumberFormat.getCurrencyInstance(Locale.FRANCE).format(payment);
         System.out.println("US: " + us);
-        System.out.println("India: " + "Rs."+india.substring(1));
+        System.out.println("India: " + "Rs." + india.substring(1));
         System.out.println("China: " + china);
         System.out.println("France: " + france);
     }

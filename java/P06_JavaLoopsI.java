@@ -4,7 +4,7 @@ public class P06_JavaLoopsI {
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());
         for (int i = 1; i <= 10; i++) {
-            System.out.println(N+" x "+i+" = "+N*i);
+            System.out.println(N + " x " + i + " = " + N * i);
         }
         bufferedReader.close();
     }

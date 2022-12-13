@@ -4,7 +4,7 @@ public class P26_JavaPrimalityTest {
 
         String n = bufferedReader.readLine();
         System.out.println(
-            (new BigInteger(n).isProbablePrime(1))?"prime":"not prime");
+                (new BigInteger(n).isProbablePrime(1)) ? "prime" : "not prime");
         bufferedReader.close();
     }
 }
