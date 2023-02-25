@@ -1,3 +1,8 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
 public class P58_CanYouAccess {
     public static void main(String[] args) throws Exception {
         DoNotTerminate.forbidExit();

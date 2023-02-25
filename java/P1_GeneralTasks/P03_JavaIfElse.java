@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P03_JavaIfElse {
     private static final Scanner scanner = new Scanner(System.in);
 

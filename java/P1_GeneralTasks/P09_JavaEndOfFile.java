@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P09_JavaEndOfFile {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

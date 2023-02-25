@@ -1,3 +1,6 @@
+import java.util.Scanner;
+import java.util.Stack;
+
 public class P41_JavaStack {
     public static void main(String[] argh) {
         Scanner sc = new Scanner(System.in);

@@ -29,7 +29,7 @@ class Result {
 
 }
 
-public class D02P01_MinMaxSum {
+public class D01P02_MinMaxSum {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

@@ -1,3 +1,7 @@
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.stream.Collectors;
+
 public class P44_JavaPriorityQueue {
     class Student implements Comparable<Student> {
         int id;

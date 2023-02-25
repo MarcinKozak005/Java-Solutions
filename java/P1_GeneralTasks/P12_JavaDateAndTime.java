@@ -1,3 +1,5 @@
+import java.util.Calendar;
+
 public class P12_JavaDateAndTime {
     static String[] daysOfTheWeek = new String[]{"SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
 

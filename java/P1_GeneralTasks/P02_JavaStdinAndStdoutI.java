@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P02_JavaStdinAndStdoutI {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

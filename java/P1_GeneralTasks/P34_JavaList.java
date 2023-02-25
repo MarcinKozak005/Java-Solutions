@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Scanner;
+
 public class P34_JavaList {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

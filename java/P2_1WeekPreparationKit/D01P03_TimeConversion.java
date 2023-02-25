@@ -1,4 +1,4 @@
-public class D01P02_TimeConversion {
+public class D01P03_TimeConversion {
     class Result {
         //My code start
         public static String timeConversion(String s) {

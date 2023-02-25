@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P07_JavaLoopsII {
     public static void calculateSeries(int a, int b, int n) {
         int s0 = a + b;

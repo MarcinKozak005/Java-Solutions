@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P08_JavaDatatypes {
     public static void main(String[] argh) {
         Scanner sc = new Scanner(System.in);

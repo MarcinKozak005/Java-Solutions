@@ -1,3 +1,8 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.Scanner;
+
 public class P43_JavaDequeue {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

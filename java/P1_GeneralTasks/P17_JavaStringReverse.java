@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P17_JavaStringReverse {
     public static void main(String[] args) {
 

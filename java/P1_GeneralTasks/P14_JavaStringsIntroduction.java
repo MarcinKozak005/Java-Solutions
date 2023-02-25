@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class P14_JavaStringsIntroduction {
     public static void main(String[] args) {
 

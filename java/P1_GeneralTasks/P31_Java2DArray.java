@@ -1,3 +1,13 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toList;
+
 public class P31_Java2DArray {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -20,11 +30,11 @@ public class P31_Java2DArray {
 
         // My code
         int largest = Integer.MIN_VALUE;
-        int currentHourglassSum = Integer.MIN_VALUE;
+        int currentHourglassSum;
         for (int i = 0; i < arr.size() - 2; i++) {
             for (int j = 0; j < arr.get(0).size() - 2; j++) {
                 currentHourglassSum = getHourglassSum(arr, i, j);
-                largest = (currentHourglassSum > largest) ? currentHourglassSum : largest;
+                largest = Math.max(currentHourglassSum, largest);
             }
         }
         System.out.println(largest);

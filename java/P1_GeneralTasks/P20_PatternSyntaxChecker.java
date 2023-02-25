@@ -1,3 +1,7 @@
+import java.util.Scanner;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
+
 public class P20_PatternSyntaxChecker {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
