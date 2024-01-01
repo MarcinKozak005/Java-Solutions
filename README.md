@@ -1,4 +1,4 @@
-# HackerRank_Java
+# HackerRank
 
 The following repository contains my solutions to HackerRank problems/tasks
 
